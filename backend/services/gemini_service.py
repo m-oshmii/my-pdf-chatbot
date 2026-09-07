@@ -11,7 +11,7 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
-MODEL_NAME = "gemini-2.5-flash-lite"
+MODEL_NAME = "gemini-3.5-flash-lite"
 MAX_PDF_CHARS = 80_000
 
 
