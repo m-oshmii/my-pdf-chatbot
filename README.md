@@ -22,6 +22,8 @@ The application provides a conversational interface where users can upload a PDF
 
 ---
 
+
+
 ## ✨ Features
 
 - 📄 Upload PDF documents
@@ -36,7 +38,11 @@ The application provides a conversational interface where users can upload a PDF
 
 ---
 
+
+
 ## 🛠️ Tech Stack
+
+
 
 ### Frontend
 
@@ -45,6 +51,8 @@ The application provides a conversational interface where users can upload a PDF
 - Vite
 - Axios
 - Tailwind CSS
+
+
 
 ### Backend
 
@@ -55,6 +63,8 @@ The application provides a conversational interface where users can upload a PDF
 - Python-dotenv
 - Google Gemini API
 
+
+
 ### Deployment & Tools
 
 - Render
@@ -62,7 +72,11 @@ The application provides a conversational interface where users can upload a PDF
 - GitHub
 - Cursor
 
+
+
 ### ---
+
+
 
 ## 📁 Project Structure
 
@@ -112,6 +126,8 @@ my-pdf-chatbot/
 
 ---
 
+
+
 ## 🔄 How It Works
 
 1. **Upload a PDF**
@@ -126,6 +142,8 @@ my-pdf-chatbot/
   Gemini generates an answer based on the provided PDF content.
 6. **Display the Response**
   The answer is returned by the backend and displayed in the chatbot interface.
+
+
 
 ### Application Flow
 
@@ -184,7 +202,11 @@ React Chat Interface
 
 ---
 
+
+
 ## 💻 Local Setup
+
+
 
 ### 1. Clone the Repository
 
@@ -195,6 +217,8 @@ git clone [https://github.com/m-oshmii/my-pdf-chatbot.git](https://github.com/m-
 cd my-pdf-chatbot
 ```
 
+
+
 ### 2. Backend Setup
 
 Navigate to the backend directory:
@@ -203,6 +227,8 @@ Navigate to the backend directory:
 
 cd backend
 ```
+
+
 
 ### 3. Configure the Gemini API Key
 
@@ -213,6 +239,8 @@ Create a `.env` file inside the `backend` folder:
 GEMINI_API_KEY=your_api_key_here 
 ```
 
+
+
 ### 4. Start the Backend
 
 From the `backend` directory:
@@ -221,6 +249,8 @@ From the `backend` directory:
 
 uvicorn main:app --reload
 ```
+
+
 
 ### 5. Frontend Setup
 
@@ -258,6 +288,8 @@ The frontend will normally be available at:
 
 ---
 
+
+
 ## 📌 API Endpoints
 
 | Method | Endpoint | Description |
@@ -276,6 +308,8 @@ Interactive API documentation is available through FastAPI Swagger UI:
 
 ---
 
+
+
 ## 🔐 Environment Variables
 
 The backend requires the following environment variable:
@@ -292,6 +326,8 @@ The API key should be stored in a `.env` file locally and configured as an envir
 
 ---
 
+
+
 ## 🎯 Example Usage
 
 1. Open the application.
@@ -300,6 +336,8 @@ The API key should be stored in a `.env` file locally and configured as an envir
 4. Enter a question related to the uploaded document.
 5. Click **Send**.
 6. The chatbot processes the question using Gemini AI and returns an answer based on the uploaded PDF.
+
+
 
 ### Example
 
@@ -317,28 +355,6 @@ The document is a comprehensive guide covering the topics and information provid
 
 ---
 
-## 📸 Screenshots
-
-### Main Chat Interface
-
-The chatbot provides a simple conversational interface for interacting with uploaded PDF documents.
-
-*Add screenshot here.*
-
-### PDF Upload
-
-Users can upload a PDF document and wait until it is successfully processed.
-
-*Add screenshot here.*
-
-### AI Response
-
-Users can ask questions about the uploaded PDF and receive AI-generated responses.
-
-*Add screenshot here.*
-
----
-
 ## 🔮 Future Improvements
 
 - ⚡ Improve response speed by sending only relevant sections of the PDF to Gemini
@@ -352,6 +368,8 @@ Users can ask questions about the uploaded PDF and receive AI-generated response
 
 ---
 
+
+
 ## 👨‍💻 Author
 
 **m-oshmii**
@@ -361,6 +379,8 @@ GitHub:
 [https://github.com/m-oshmii](https://github.com/m-oshmii)
 
 ---
+
+
 
 ## 📄 License
 
